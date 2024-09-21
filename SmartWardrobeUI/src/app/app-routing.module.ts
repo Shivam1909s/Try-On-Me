@@ -4,7 +4,7 @@ import { OverviewComponent } from './components/overview/overview.component';
 import { TutorialComponent } from './components/tutorial/tutorial.component';
 import { ProductComponent } from './components/product/product.component';
 import { TeamComponent } from './components/team/team.component';
-import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/overview', pathMatch: 'full' },
@@ -12,7 +12,7 @@ const routes: Routes = [
   { path: 'tutorial', component: TutorialComponent },
   { path: 'product', component: ProductComponent },
   { path: 'team', component: TeamComponent },
-  { path: 'contact-us', component: ContactUsComponent }
+  { path: 'contact', component: ContactComponent }
 ];
 
 @NgModule({

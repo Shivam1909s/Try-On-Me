@@ -12,7 +12,7 @@ export class NavbarComponent {
     { icon: 'tutorial', label: 'TUTORIAL', route: '/tutorial' },
     { icon: 'product', label: 'TRY ON', route: '/product' },
     { icon: 'team', label: 'TEAM', route: '/team' },
-    { icon: 'contact-us', label: 'CONTACT US', route: '/contact-us' },
+    { icon: 'contact', label: 'CONTACT', route: '/contact' },
   ]);
 
   collapsed = signal(false);
